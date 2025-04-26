@@ -1,3 +1,18 @@
+Research Questions
+
+RQ1: Which game genre generates the highest global sales?
+RQ2: Are there differences in sales patterns across regions (North America vs. Europe vs. Japan)?
+RQ3: How do critic scores and user scores relate to sales?
+RQ4 (Optional Advanced): Can we predict game sales based on platform, genre, and scores?
+
+Where: Dataset from Kaggle or external source (where you found it).
+Who: Originally scraped from VGChartz.com.
+What: Each row = 1 game release; columns = sales data, critic/user scores, platform, genre, etc.
+
+FAIR: Dataset is openly accessible (on Kaggle), well-structured with clear columns, reusable for gaming sales analysis.
+CARE: Dataset is about games, not human data → CARE principles less directly relevant.
+
+
 Title: -
 Team: Muhammad bin Hanifah Syukri, Mirza Faris bin Mohd Affendi
 Date: December 18, 2024
