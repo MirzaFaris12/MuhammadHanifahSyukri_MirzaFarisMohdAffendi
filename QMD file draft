@@ -1,0 +1,29 @@
+title: "STAT 184 Final Project: Video Game Sales 2016"
+format: pdf
+editor: visual
+---
+
+# Introduction
+- What is your project about
+- Research Questions
+
+# Data Provenance
+- Where the data came from
+- Who collected it
+- Purpose of the data
+
+# FAIR/CARE Principles
+
+# Data Cleaning Summary
+- Steps you did to clean the dataset
+
+# Exploratory Data Analysis
+- Include your charts + tables
+- Write narratives to explain each
+
+# Insights and Conclusion
+- Summarize findings
+- Any surprises?
+
+# Code Appendix
+```{r codeAppend, ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
