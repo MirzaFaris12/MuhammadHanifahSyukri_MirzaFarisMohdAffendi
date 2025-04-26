@@ -1,0 +1,127 @@
+Title: -
+Team: Muhammad bin Hanifah Syukri, Mirza Faris bin Mohd Affendi
+Date: December 18, 2024
+
+Introduction
+Video games have become one of the most significant forms of entertainment globally, generating billions of dollars in revenue annually. Understanding the trends behind video game sales can provide insights into consumer behavior, platform popularity, and genre preferences.
+
+In this project, we explore the following research questions:
+
+1) Which video game genres generate the highest global sales?
+
+2) How do video game sales vary by region (North America, Europe, Japan)?
+
+3) Are critic and user scores related to higher global sales?
+
+We will conduct an Exploratory Data Analysis (EDA) to uncover patterns, using the "Video Game Sales 2016" dataset. This report will include data provenance, data cleaning steps, visualizations, and insights based on the findings.
+
+
+Literature Review
+Previous studies of the gaming industry have examined the impact of reviews, platform exclusivity, and genre popularity on game sales. Research by NPD Group and Newzoo shows that franchises like "Call of Duty" and "FIFA" dominate global sales, largely due to brand loyalty and regional preferences.
+
+Several academic and business sources suggest that:
+
+Genre influences sales significantly, with action, sports, and shooter games leading.
+
+Regional preferences affect sales; for example, role-playing games (RPGs) are more popular in Japan compared to North America.
+
+Critical acclaim (high critic and user scores) tends to positively correlate with sales, but exceptions exist.
+
+We aim to investigate whether these trends hold true in the 2016 dataset.
+
+
+
+Methodology
+The dataset "Video Game Sales 2016" was obtained from Kaggle and includes variables such as game name, platform, year of release, genre, publisher, sales across regions (North America, Europe, Japan, Others), critic score, and user score.
+
+We imported the dataset into RStudio and performed the following steps:
+
+Renamed columns for clarity and consistency.
+
+Filtered out rows with missing sales or genre information.
+
+Standardized genre names.
+
+Converted necessary variables to appropriate data types (e.g., factors).
+
+Our EDA focused on descriptive statistics and visualizations to uncover relationships and trends. Where appropriate, we generated summary tables and graphics to assist interpretation.
+
+
+
+
+Data Provenance
+The data source is Kaggle’s “Video Game Sales 2016” dataset, which compiles sales figures from various gaming market trackers, including VGChartz.
+
+Collector: Aggregators from VGChartz.
+
+Purpose: To track sales performance across games, platforms, and regions.
+
+Cases: Each row represents a video game release.
+
+FAIR/CARE Principles
+FAIR: The dataset is accessible, downloadable in CSV format, and structured for easy reuse.
+
+CARE: Since the data relates to products rather than individuals, ethical concerns are minimal.
+
+
+
+Data Exploration
+Data Cleaning Summary
+Removed 268 rows with missing critical values (e.g., Global_Sales).
+
+Standardized platform and genre names.
+
+Converted user score from a character to numeric after handling missing values.
+
+
+
+Summary Statistics
+
+Region	Total Sales (in Millions)
+North America	XXX
+Europe	XXX
+Japan	XXX
+Other	XXX
+(Fill in with real values after you run your R scripts)
+
+Visualizations
+
+we have to create a graph that shows
+1. Global Sales by Genre
+
+Purpose:
+To find out which genres (Action, Sports, Adventure, RPG, etc.) sold the most worldwide.
+
+2. Regional Sales Breakdown
+
+Regional Sales Breakdown
+Purpose:
+To see how game sales are distributed across different regions:
+North America (NA)
+Europe (EU)
+Japan (JP)
+Other regions
+
+3. Critic Score vs Global Sales
+
+Critic Score vs Global Sales
+Purpose:
+To find out if better critic reviews (higher scores) mean higher sales.
+We want to check if there’s a positive relationship.
+
+
+Results
+From the visualizations and summaries:
+
+Genres: 
+
+Regions: 
+
+Scores: 
+
+
+Discussion: 
+
+References:
+
+We can include more than 5 references
