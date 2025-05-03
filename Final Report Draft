@@ -73,10 +73,33 @@ Purpose: To track sales performance across games, platforms, and regions.
 
 Cases: Each row represents a video game release.
 
-FAIR/CARE Principles
-FAIR: The dataset is accessible, downloadable in CSV format, and structured for easy reuse.
+Example Full Paragraph for data provenance:
+We got our dataset from Kaggle, a website where people share data for projects and analysis. The dataset is called 
+"Video Game Sales 2016" and includes information about video games released between 2000 and 2016. My groupmate and I 
+found and downloaded the dataset together. It was uploaded to Kaggle by another user for people to use in data analysis. Each row
+in the dataset represents a video game, with details like its name, platform, genre, sales numbers, and review scores from critics and users.
 
-CARE: Since the data relates to products rather than individuals, ethical concerns are minimal.
+
+
+FAIR/CARE Principles
+FAIR Principles (Findable, Accessible, Interoperable, Reusable):
+
+1) Findable: Our dataset is easily accessible on Kaggle. It comes with a title and description, making it easy for us to search for and identify.
+
+2) Accessible: Anyone can download and use the dataset from Kaggle with no restrictions, which makes it open and easy to access for others.
+
+3) Interoperable: The dataset is in CSV format, a common file type that works with most data tools like Excel, R, and Python. The column names are also clear and consistent.
+
+4) Reusable: The dataset includes important details like sales, genres, platforms, and scores. This allows it to be reused for different kinds of analysis, like sales trends or rating patterns. We also did some cleaning and preprocessing, which makes it easier to reuse.
+
+
+CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics):
+
+1) Collective Benefit: This dataset helps the data science community and students like us learn from real-world information. We use it for educational purposes to study patterns in video game sales and ratings.
+
+2) Responsibility: We made sure to handle the data carefully, especially when cleaning it and removing unclear or non-numeric values (like “tbd” in the user score column).
+
+3) Ethics: The dataset doesn’t include any personal or sensitive information, so we’re not violating anyone’s privacy. It only includes public data about video games.
 
 
 
