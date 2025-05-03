@@ -56,7 +56,5 @@ We performed the following preprocessing steps:
 - We were surprised by how much variance existed in user scores across platforms.
 
 # Code Appendix
-```{r codeAppend, ref.label = knitr::all_labels(), echo=TRUE, eval=FALSE}
-# This will automatically display all code chunks in the appendix
 ```
 
