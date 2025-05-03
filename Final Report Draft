@@ -47,20 +47,20 @@ We aim to investigate whether these trends hold true in the 2016 dataset.
 
 
 Methodology
-The dataset "Video Game Sales 2016" was obtained from Kaggle and includes variables such as game name, platform, year of release, genre, publisher, sales across regions (North America, Europe, Japan, Others), critic score, and user score.
+
+- The dataset "Video Game Sales 2016" was obtained from Kaggle and includes variables such as game name, platform, year of release, genre, publisher, sales across regions (North America, Europe, Japan, Others), critic score, and user score.
 
 We imported the dataset into RStudio and performed the following steps:
 
-Renamed columns for clarity and consistency.
+1) Renamed columns for clarity and consistency.
 
-Filtered out rows with missing sales or genre information.
+2) Filtered out rows with missing sales or genre information.
 
-Standardized genre names.
+3) Standardized genre names.
 
-Converted necessary variables to appropriate data types (e.g., factors).
+4) Converted necessary variables to appropriate data types (e.g., factors).
 
-Our EDA focused on descriptive statistics and visualizations to uncover relationships and trends. Where appropriate, we generated summary tables and graphics to assist interpretation.
-
+5) Our EDA focused on descriptive statistics and visualizations to uncover relationships and trends. Where appropriate, we generated summary tables and graphics to assist interpretation.
 
 
 
@@ -105,22 +105,22 @@ CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethic
 
 Data Exploration
 Data Cleaning Summary
-Removed 268 rows with missing critical values (e.g., Global_Sales).
+- Removed 268 rows with missing critical values (e.g., Global_Sales).
 
-Standardized platform and genre names.
+- Standardized platform and genre names.
 
-Converted user score from a character to numeric after handling missing values.
+- Converted user score from a character to numeric after handling missing values.
 
 
 
 Summary Statistics
 
-Region	Total Sales (in Millions)
-North America	XXX
-Europe	XXX
-Japan	XXX
-Other	XXX
-(Fill in with real values after you run your R scripts)
+- Region	Total Sales (in Millions)
+- North America	XXX
+- Europe	XXX
+- Japan	XXX
+- Other	XXX
+- (Fill in with real values after you run your R scripts)
 
 Visualizations
 
