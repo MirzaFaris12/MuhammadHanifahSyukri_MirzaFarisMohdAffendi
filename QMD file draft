@@ -49,7 +49,9 @@ We performed the following preprocessing steps:
 ## Genre Popularity by Region
 *Faceted bar plot showing which genres sell best in NA, EU, JP*
 
-# Insights and Conclusion
+## Regression Analysis Table
+* A linear regression table shows how critic and user scores relate to global sales
+
 - **Sales are strongly driven by platform and genre.**
 - **Critic scores show a positive correlation with global sales.**
 - **Japan tends to prefer Role-Playing games, while NA prefers Action and Sports.**
