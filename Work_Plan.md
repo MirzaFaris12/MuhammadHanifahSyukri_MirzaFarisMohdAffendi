@@ -47,10 +47,10 @@ Milestones for Video Game Sales 2016 Research Project
 12) Prepared for Work-in-Progress Presentation
     - Completed WIP presentation, sharing the project topic, one insight (e.g., Action games had the highest global sales), and one challenge (e.g., Missing publisher info for some entries).
 
-Data cleaning done by __
+Data cleaning done by Mirza Faris Bin Mohd Affandi
 
-EDA done by __
+EDA done by Muhammad Bin Hanifah Syukri
 
-Report draft done by __
+Report draft done by Muhammad Bin Hanifah Syukri
 
-Final draft done by __
+Final draft done by Mirza Faris Bin Mohd Affandi

@@ -1,29 +1,60 @@
+---
 title: "STAT 184 Final Project: Video Game Sales 2016"
 format: pdf
 editor: visual
 ---
 
 # Introduction
-- What is your project about
-- Research Questions
+This project explores video game sales between 2000 and 2016.  
+We aim to understand:
+- What factors influence global sales?
+- Are critic and user scores correlated with commercial success?
+- How do sales differ by region and platform?
 
 # Data Provenance
-- Where the data came from
-- Who collected it
-- Purpose of the data
+The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings), uploaded by a contributor for public analysis.  
+It contains metadata about video game titles, platforms, genres, global/regional sales, and critic/user review scores.
 
 # FAIR/CARE Principles
+- **FAIR**: The dataset is accessible (CSV format), reusable, and clearly structured.
+- **CARE**: No private data is used. Analysis is done ethically, solely for educational insights.
 
 # Data Cleaning Summary
-- Steps you did to clean the dataset
+We performed the following preprocessing steps:
+- Removed rows with missing or placeholder scores (`"tbd"`)
+- Converted `user_score` to numeric
+- Filtered out entries with `global_sales <= 0`
+- Kept only platforms with ≥ 30 entries for score averaging
 
 # Exploratory Data Analysis
-- Include your charts + tables
-- Write narratives to explain each
+
+## Top Publishers by Global Sales
+*Include table or plot showing top publishers*
+
+## Average Scores by Platform
+*Show a table of average critic and user scores for platforms with ≥ 30 games*
+
+## Global Sales by Genre
+*Bar chart of total sales by genre*
+
+## Regional Sales Comparison
+*Bar chart comparing sales across NA, EU, JP, and Other*
+
+## Critic Score vs User Score
+*Scatterplot with narrative on correlation*
+
+## Boxplot: Top 5 Platforms
+*Boxplot showing global sales distribution for the 5 top-selling platforms (log scale)*
+
+## Genre Popularity by Region
+*Faceted bar plot showing which genres sell best in NA, EU, JP*
 
 # Insights and Conclusion
-- Summarize findings
-- Any surprises?
+- **Sales are strongly driven by platform and genre.**
+- **Critic scores show a positive correlation with global sales.**
+- **Japan tends to prefer Role-Playing games, while NA prefers Action and Sports.**
+- We were surprised by how much variance existed in user scores across platforms.
 
 # Code Appendix
-```{r codeAppend, ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
+
