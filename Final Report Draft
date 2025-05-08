@@ -151,15 +151,20 @@ We want to check if there’s a positive relationship.
 Results
 From the visualizations and summaries:
 
-Genres: 
+Genres: NORTH AMERICALEADS IN SALES,OUTPERFORMING BOTHEUROPE AND JAPAN BYA LARGE MARGIN.
+2) JAPAN HAS THELOWEST SALES,INDICATING POTENTIALFOR MARKET GROWTHOR A NEED TOREASSESS REGIONALSTRATEGIES
 
-Regions: 
+Regions: 1) ACTION AND SPORTS - 2 OF THE HIGHESTSALES BY GENRE.
+2) PUZZLE,ADVENTURE, ANDSTRATEGY - 3 OF THELOWEST SALES BYGENRE.
 
-Scores: 
+Scores: 1) HIGHER CRITIC SCORESCORRESPOND TO HIGHERUSER SCORES, INDICATINGPOSITIVE CORRELATION.
+2)THERE ARE GAMES WITHLOW CRITIC RATINGS BUTSTILL HIGH USERRATINGS, SHOWING THATPLAYER ENJOYMENTDOESN'T ALWAYS MATCHCRITIC REVIEWS.
 
 
-Discussion: 
+Discussion: The data highlights clear regional and genre-based differences in game sales. North America's dominance in sales may be due to a larger market size or more aggressive marketing strategies, while Japan's low performance suggests a potential area for growth or the need for localized content strategies. Genre popularity varies significantly, with Action and Sports games proving universally popular, likely due to their broad appeal and accessibility. Meanwhile, genres like Puzzle, Adventure, and Strategy might cater to niche audiences or face stiff competition. Finally, the score analysis suggests that while critical reception often aligns with user satisfaction, it is not always a definitive predictor—emphasizing the importance of community feedback and player preferences in the gaming industry.
 
-References:
+References: 
+1) Kaggle. (n.d.). Video Game Sales Dataset. Retrieved from https://www.kaggle.com/datasets/gregorut/videogame-sales-with-ratings
+2) IGN & Metacritic Score Sources (as included in dataset)
 
 We can include more than 5 references
